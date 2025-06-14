@@ -1,0 +1,25 @@
+p.one {
+    border-color: aqua;
+    border-style: ridge;
+    border-width: medium;
+}
+p.two {
+    border-color: skyblue;
+    border-style: double;
+   border-width: thick;
+}
+p.three{ 
+    border-color: 255,00,ff;
+    border-style: inset;
+    border-width: 5px;
+}
+p.four{
+    border-color: burlywood;
+    border-style: groove;
+    border-width: 3cm;
+}
+p.five{
+    border-color:#2550ff;
+    border-style: outset;
+    border-width: 3cm;
+}

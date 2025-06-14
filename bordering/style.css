@@ -1,0 +1,19 @@
+p {
+    text-align: center;
+    border: solid red;
+    border-radius: thick;
+    
+}
+div {
+    border: ridge gray;
+    border-style: medium;
+    
+}
+q {
+    border:groove skyblue;
+    border-style: thick;
+}
+button {
+    border: ridge burlywood;
+    background-color: skyblue;
+}

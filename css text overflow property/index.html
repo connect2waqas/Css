@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css text overflow property</title>
+    <style>
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: inherit;
+        }
+        h2{
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        p.test1{
+            white-space: nowrap;
+            width: 200px;
+            border: 2px solid black;
+            overflow: hidden;
+            text-overflow: clip;
+        }
+        p.test2{
+            white-space: nowrap;
+            width: 200px;
+            border: 2px solid black;
+            overflow: visible;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <h1>Css Text Overflow Property:</h1>
+   <br>
+   <hr>
+   <h2>Text-overflow: clip </h2>
+   <p class="test1"> this is text that will work on the quality and quantaty.</p>
+   <br>
+   <hr>
+   <h2>text overflow: ellipsis</h2>
+    <p class="test2">This is the text that will work on the quality and quantaty. </p>
+
+</body>
+</html

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anthor z-index</title>
+    <style>
+        .container{
+            position: relative;
+        }
+        .blackbox{
+            width: 500px;
+            height: 300px;
+            text-align: left;
+            border: 3px solid burlywood;
+            z-index: 1;
+            margin: 30px;
+        }
+        .grey{
+            position: absolute;
+            width: 200px;
+            height: 150px;
+            z-index: 3;
+            border: 2px solid brown;
+            background-color: lightgray;
+            top: 70px;
+            left: 70px;
+        }
+        .brown{
+            position: absolute;
+            width: 200px;
+            height: 150px;
+            z-index: 2;
+            background-color: rgb(27, 122, 90);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="blackbox">black box (Z-index 1)</div>
+        <div class="grey">black box (z-index 2)</div>
+        <div class="brown">Block box (Z-index 3)</div>
+    </div>
+</body>
+</html>

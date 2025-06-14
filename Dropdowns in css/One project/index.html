@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        .dropbtn{
+            background-color: #4CAF50;
+            padding: 16px;
+            cursor: pointer;
+            color: rgba(255, 255, 255, );
+            font-size:  17px;
+            border: none;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position:absolute;
+            z-index: 1;
+            background-color: #f9f9f9;
+            box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+            min-width: 170px;
+        }
+          .dropdown-content a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          .dropdown-content a:hover {
+            background-color: #f1f1f1;
+          }
+          .dropdown:hover .dropdown-content{
+            display: block;
+          }
+          .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <a href="#">link 1</a>
+            <a href="#">link 2</a>
+            <a href="#">link 3</a>
+            <a href="#">link 4</a>
+         </div>
+    </div>
+</body>
+</html>

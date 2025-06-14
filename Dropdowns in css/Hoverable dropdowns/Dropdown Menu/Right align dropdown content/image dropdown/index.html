@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Dropdown</title>
+    <style>
+     .dropdown{
+        position: relative;
+        display:inline-block;
+     }
+     .dropdown-content{
+        position: absolute;
+        display: none;
+        background-color: #f9f9f9;
+        z-index: 1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        .desc{
+            padding: 10px;
+            text-align: center;
+            font-style: italic;
+            font-family: 'Source Sans Pro', sans-serif;
+            
+        }
+        h1{
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        p{
+            font-family:'source sans pro', sans-serif;
+        }
+    </style>
+</head>
+<body>
+   <h1>Image Dropdown</h1>
+   <p>Move the mouse  over the image to see the image appear below.</p>
+   <div class="dropdown">
+      <img src="dev.jpg" alt="art" style="height: 100px;">
+      <div class="dropdown-content">
+        <img src="dev.jpg" alt="Dev" style="height: 200px;">
+      
+      <div class="desc">
+         Beautiful computer style
+      </div>
+      </div>
+   </div>
+</body>
+</html>

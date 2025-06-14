@@ -1,0 +1,12 @@
+div {
+    background-color: none;
+}
+body {
+    background:   url("background.jpg") right top scroll repeat-x   ;
+    /* background-position: right top;
+    background-repeat: repeat-x;
+    background-attachment: scroll; */
+}
+p {
+    color: rgb(20, 13, 21);
+}
